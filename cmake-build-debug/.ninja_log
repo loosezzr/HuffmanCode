@@ -1,0 +1,5 @@
+# ninja log v6
+152	887	7884220104095986	CMakeFiles/HuffmanCode.dir/BitStream/BitStream.cpp.obj	2f24803ec1309d9d
+5	1273	7884220102627656	CMakeFiles/HuffmanCode.dir/main.cpp.obj	4d19988e055fee53
+143	1278	7884220104001198	CMakeFiles/HuffmanCode.dir/Huffman/HuffmanCodec.cpp.obj	19d4797deb5c2d16
+1278	1944	7884220115349254	HuffmanCode.exe	8eb56c0e88c82ee1
