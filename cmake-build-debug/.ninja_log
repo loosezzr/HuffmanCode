@@ -1,0 +1,17 @@
+# ninja log v6
+152	887	7884220104095986	CMakeFiles/HuffmanCode.dir/BitStream/BitStream.cpp.obj	2f24803ec1309d9d
+1278	1944	7884220115349254	HuffmanCode.exe	8eb56c0e88c82ee1
+5	1273	7884220102627656	CMakeFiles/HuffmanCode.dir/main.cpp.obj	4d19988e055fee53
+143	1278	7884220104001198	CMakeFiles/HuffmanCode.dir/Huffman/HuffmanCodec.cpp.obj	19d4797deb5c2d16
+5	793	7884268555586113	build.ninja	1cae5e65bd635e0
+5	855	7884268555923950	CMakeFiles/HuffmanCode.dir/Huffman/HuffmanCodec.cpp.obj	19d4797deb5c2d16
+855	1158	7884268564424111	HuffmanCode.exe	8eb56c0e88c82ee1
+12	1031	7884276233978573	CMakeFiles/HuffmanCode.dir/main.cpp.obj	4d19988e055fee53
+195	1055	7884276235819265	CMakeFiles/HuffmanCode.dir/Huffman/HuffmanCodec.cpp.obj	19d4797deb5c2d16
+1056	1555	7884276244421894	HuffmanCode.exe	8eb56c0e88c82ee1
+14	595	7884278152977700	CMakeFiles/HuffmanCode.dir/BitStream/BitStream.cpp.obj	2f24803ec1309d9d
+5	967	7884278152884513	CMakeFiles/HuffmanCode.dir/main.cpp.obj	4d19988e055fee53
+10	1135	7884278152930253	CMakeFiles/HuffmanCode.dir/Huffman/HuffmanCodec.cpp.obj	19d4797deb5c2d16
+1136	1309	7884278164192647	HuffmanCode.exe	8eb56c0e88c82ee1
+5	694	7884279199772061	CMakeFiles/HuffmanCode.dir/main.cpp.obj	4d19988e055fee53
+695	863	7884279206663351	HuffmanCode.exe	8eb56c0e88c82ee1
