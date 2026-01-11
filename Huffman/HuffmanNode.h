@@ -1,30 +1,19 @@
 #pragma once
 
 /**
- * @file HuffmanNode.h
- * @brief Definition of the Huffman Tree Node structure.
- */
-
-/**
  * @struct HuffmanNode
- * @brief Represents a node in the Huffman Tree.
- * 
- * Complies with the textbook definition:
- * - weight: Weight of the node (frequency).
- * - parent: Index of the parent node (0 if root/unused).
- * - lchild: Index of the left child (0 if none).
- * - rchild: Index of the right child (0 if none).
- * - data: Character data (for leaf nodes).
+ * @brief 哈夫曼树节点结构体
+ * * 课本定义：使用静态三叉链表存储结构
  */
 struct HuffmanNode {
-    unsigned int weight; ///< Weight of the node
-    unsigned int parent; ///< Parent node index
-    unsigned int lchild; ///< Left child node index
-    unsigned int rchild; ///< Right child node index
-    char data;           ///< Character data (useful for leaf nodes)
+    unsigned int weight; ///< 权值（字符出现频率）
+    unsigned int parent; ///< 父节点下标
+    unsigned int lchild; ///< 左孩子下标
+    unsigned int rchild; ///< 右孩子下标
+    char data;           ///< 节点数据（仅叶子节点有效）
 
     /**
-     * @brief Default constructor initializing all fields to 0/null.
+     * @brief 默认构造函数，初始化为零或空
      */
     HuffmanNode() : weight(0), parent(0), lchild(0), rchild(0), data('\0') {}
 };

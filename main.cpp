@@ -27,7 +27,7 @@ void printHuffmanTree(const vector<HuffmanNode>& HT) {
     cout << "Idx\tData\tWeight\tParent\tLChild\tRChild\n";
     for (size_t i = 1; i < HT.size(); ++i) {
         if (HT[i].weight == 0 && HT[i].parent == 0 && HT[i].lchild == 0 && HT[i].rchild == 0) continue; // Skip unused
-        
+
         string dataDisplay = "N/A";
         if (HT[i].lchild == 0 && HT[i].rchild == 0) { // Leaf node
             if (HT[i].data >= 32 && HT[i].data <= 126) {
@@ -39,11 +39,11 @@ void printHuffmanTree(const vector<HuffmanNode>& HT) {
             }
         }
 
-        cout << i << "\t" 
-             << dataDisplay << "\t" 
-             << HT[i].weight << "\t" 
-             << HT[i].parent << "\t" 
-             << HT[i].lchild << "\t" 
+        cout << i << "\t"
+             << dataDisplay << "\t"
+             << HT[i].weight << "\t"
+             << HT[i].parent << "\t"
+             << HT[i].lchild << "\t"
              << HT[i].rchild << endl;
     }
 }
@@ -87,7 +87,7 @@ int main() {
 
         BitStream bitStream;
         cout << "Bit Stream: ";
-        
+
         for (char c : inputBuffer) {
             string code = codec.getCode(c);
             cout << code; // Print as we go

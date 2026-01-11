@@ -13,5 +13,4 @@ set(SOURCES
     BitStream/BitStream.cpp
 )
 
-# Executable
 add_executable(HuffmanCode ${SOURCES})
